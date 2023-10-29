@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> clothing ecommerce </title>
+</head>
+
+<body>
+    
+    
+    <!--==================== top bar ====================-->
+    <div class="top-bar">
+        <p>FREE SHIPPING ON ALL CONSUMER ORDERS OF $69 OR MORE CALL TOLL-FREE 1-877-SMART-10</p>
+    </div>
+    <div class="top-bar">
+        <p></p>
+    </div>
+    <!--==================== logo ====================-->
+    <div class="logo-container">
+        <img src="assets/img/logo.png" alt="Your Logo">
+    </div>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>New</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#collection" class="nav__link">
+                            <i class="ri-compass-line"></i>
+                            <span>Collection</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">
+                            <i class="ri-t-shirt-line"></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Theme change button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <video class="background-video"  autoplay loop muted playsinline>
+                <source src="assets/img/yourvideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        EVERYTHING YOU NEED <br>
+                        FOR THE RIDE <br>OF YOUR LIFE
+                    </h1>
+                    <p class="home__description">
+                        The new collection of clothing from <br>
+                        the best brands this year.
+                    </p>
+                    <a href="#new" class="button__link">
+                        Explore <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+        
+
+        <!--==================== NEW ====================-->
+        <section class="new section" id="new">
+            <h2 class="section__title">
+                BEST SELLING BIKERS GEARS
+            </h2>
+
+            <div class="new__container container grid">
+                <article class="new__card">
+                    <img src="assets/img/Suzuki.jpeg" alt="new image" class="new__img1">
+
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Men's Best Seller
+                            </h2>
+                            <span class="new__subtitle">
+                                collection
+                            </span>
+                        </div>
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <article class="new__card">
+                    <img src="assets/img/womenBestCollection.jpeg" alt="new image" class="new__img2">
+
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Women's Best Seller
+                            </h2>
+                            <span class="new__subtitle">
+                                collection
+                            </span>
+                        </div>
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== COLLECTION ====================-->
+        <section class="collection section" id="collection">
+            <div class="collection__container container">
+                <div class="collection__explore">
+                    <div class="collection__data-men">
+                        <h2 class="collection__title">
+                            Men <br>
+                            Collection
+                        </h2>
+                        <a href="#" class="button__link">
+                            Explore Clothes <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <img src="assets/img/Arch Angel.jpeg" alt="collection image">
+                </div>
+                <div class="collection__explore">
+                    <img src="assets/img/download.jpeg" alt="collection image">
+                    <div class="collection__data-women">
+                        <h2 class="collection__title">
+                            Women <br>
+                            Collection
+                        </h2>
+                        <a href="#" class="button__link">
+                            Explore Clothes <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="products section" id="products">
+            <h2 class="section__title">
+                Best Products
+            </h2>
+            <div class="products__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/vests.jpeg" alt="product image" class="products__img">
+
+                        <h2 class="products__title">
+                            Vests
+                        </h2>
+                        <h2 class="products__price">
+                            $124.99
+                        </h2>
+                    </article>
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/footwear.jpeg" alt="product image" class="products__img">
+
+                        <h2 class="products__title">
+                            Footwears
+                        </h2>
+                        <h2 class="products__price">
+                            $34.99
+                        </h2>
+                    </article>
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/gloves.jpeg" alt="product image" class="products__img">
+
+                        <h2 class="products__title">
+                            Gloves
+                        </h2>
+                        <h2 class="products__price">
+                            $97.99
+                        </h2>
+                    </article>
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/helmet.jpeg" alt="product image" class="products__img">
+
+                        <h2 class="products__title">
+                            helmets
+                        </h2>
+                        <h2 class="products__price">
+                            $69.99
+                        </h2>
+                    </article>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== BRANDS ====================-->
+        <section class="brand section">
+            <h6 >28 YEARS IN THE GAME</h6>
+            <h2 class="section__title">
+                WHO WE ARE
+            </h2>
+
+            <section class="brand__container ">
+                <p>Daniel Smart Manufacturing offers the highest quality motorcycle gear available to biking enthusiasts around the world. Fashion forward and material pioneers: We're ahead of the curve when it comes to industry trends and the innovative materials used to make the products you'll love and depend on. We offer all of the motorcycle vests, leather jackets, gloves, footwear and helmets to make your riding experience stylish and safe. As one of the largest leather apparel manufacturers on the planet, Daniel Smart guarantees a premium final product that checks all of the boxes for your biking needs. Our team has been manufacturing and distributing motorbike gear for 30 years, and we can’t wait for you to see what’s in stock.</p>
+            </section>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="">
+                <a href="#" class="footer__logo">
+                    Shop.
+                </a>
+
+                <p class="footer__description">
+                    Commited to bringing you the <br>
+                    best cloting from popular <br>
+                    brands.
+                </p>
+            </div>
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Company</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Category</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Blog</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Events</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Popular news</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">
+                        Office
+                    </h3>
+
+                    <p class="footer__information">
+                        Monday - Saturday <br>
+                        9AM - 10AM
+                    </p>
+
+                </div>
+                <div>
+                    <h3 class="footer__title">Contact us</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" class="footer__social-link" target="_blank">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer__social-link" target="_blank">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?" class="footer__social-link" target="_blank">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; Bedimcode. All rights reserved
+            </span>
+
+            <a href="#" class="footer__privacy">
+                Terms & Conditions
+            </a>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
